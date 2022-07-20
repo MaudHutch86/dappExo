@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dappExo/static/css/main.d9420722.chunk.css",
+    "main.js": "/dappExo/static/js/main.0ef27d00.chunk.js",
+    "main.js.map": "/dappExo/static/js/main.0ef27d00.chunk.js.map",
+    "runtime-main.js": "/dappExo/static/js/runtime-main.86cce5a2.js",
+    "runtime-main.js.map": "/dappExo/static/js/runtime-main.86cce5a2.js.map",
+    "static/js/2.fbf16771.chunk.js": "/dappExo/static/js/2.fbf16771.chunk.js",
+    "static/js/2.fbf16771.chunk.js.map": "/dappExo/static/js/2.fbf16771.chunk.js.map",
+    "index.html": "/dappExo/index.html",
+    "static/css/main.d9420722.chunk.css.map": "/dappExo/static/css/main.d9420722.chunk.css.map",
+    "static/js/2.fbf16771.chunk.js.LICENSE.txt": "/dappExo/static/js/2.fbf16771.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86cce5a2.js",
+    "static/js/2.fbf16771.chunk.js",
+    "static/css/main.d9420722.chunk.css",
+    "static/js/main.0ef27d00.chunk.js"
+  ]
+}
