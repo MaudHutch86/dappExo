@@ -1,6 +1,6 @@
 {
 
-  "homepage": "https://github.com/MaudHutch86/dappExo",
+  "homepage": "https://MaudHutch86.github.io/dappExo",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
    "name": "truffle-client",
