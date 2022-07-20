@@ -12,15 +12,15 @@ function VoterButtonList() {
     contract?.events.WorkflowStatusChange({}, (error, event) => {
       console.log(event);
     })
-
+    
     contract?.events.ProposalRegistered()
     .on("data", async (event) => {
-      const proposalRegistered= await contract.methods.getOneProposal(event.returnValues.proposalId).call({from : accounts[0]});
+      const proposalRegistered = await contract.methods.getOneProposal(event.returnValues.proposalId).call({from : accounts[0]});
       console.log(proposalRegistered);
       //setProposalsList( proposalsList => event.returnValues.proposalId)  ;
       // console.log(proposalsList)
     })
-    
+    // eslint-disable-next-line
    
   }, [contract]);
 

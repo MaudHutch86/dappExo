@@ -11,7 +11,8 @@ function ButtonList() {
     contract?.events.WorkflowStatusChange({}, (error, event) => {
       console.log(event);
     })
-
+    
+    
     contract?.events.VoterRegistered()
     .on("data", async (event) => {
       const voterRegistered= await contract.methods.getVoter(event.returnValues).call({from : accounts[0]});
@@ -19,6 +20,7 @@ function ButtonList() {
       //setProposalsList( proposalsList => event.returnValues.proposalId)  ;
       //console.log(ProposalList)
     })
+    // eslint-disable-next-line
     
   }, [contract]);
  
